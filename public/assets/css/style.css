@@ -1,0 +1,432 @@
+	body {
+		background: linear-gradient(to right, #694A93, #DF7CE6, #694A93);
+		color: white;
+		font-family: sans-serif;
+	}
+
+	.navbar {
+		margin: 0px;
+		border: 0px;
+		box-shadow: 0px 10px 100px 0px #47474a;
+	}
+
+	.navbar-nav li {
+		margin-top: 10px;
+		padding: 5px;
+		margin-right: 50px;
+		font-size: 20px;
+		height: 80px;
+	}
+
+	.navbar-default .navbar-nav > li> a {
+		color: white;
+	}
+
+	.navbar .container-fluid {
+		background: linear-gradient(to right, #694A93, #DF7CE6, #694A93);
+	}
+
+	.img-full-width {
+		width: 100%;
+	}
+
+	.logo {
+		position: absolute;
+		top: 3%;
+		width: 10%;
+	}
+
+	.sign-in {
+		position: absolute;
+		right: 2%;
+		top: 25px;
+	}
+
+	.sign-in a > img {
+		width: 250px;
+	}
+
+	.sign-in a {
+		color: white;
+	}
+
+	.top-space {
+		margin-top: 1%;
+	}
+
+	.top-more-space {
+		margin-top: 3%;
+	}
+
+	.top-neg-4 {
+		margin-top: -4%;
+	}
+
+	.top-pos-4 {
+		margin-top: 4%;
+	}
+
+	.top-pos-3 {
+		margin-top: 3%;
+	}
+
+	.top-pos-6 {
+		margin-top: 6%;
+	}
+
+	.bottom-pd-pos-3 {
+		padding-bottom: 3%;
+	}
+
+	.left-pd-pos-14 {
+		padding-left: 14%;
+	}
+
+	.right-pd-pos-14 {
+		padding-right: 14%;
+	}
+
+	.steps {
+		padding: 4%;
+		background-color: #5C366D;
+	}
+
+	.img-medium-width {
+		width: 85%;
+	}
+
+	.about {
+		margin-bottom: 3%;
+		margin-top: 3%;
+	}
+
+	.heading {
+		background: linear-gradient(45deg, yellow, #F9513F);
+		font-weight: bold;
+		font-size: 32px;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		filter: drop-shadow(6px 5px 2px #333);
+	}
+
+	.para {
+		font-size: 1.5vw;
+		color: white;
+		text-align: justify;
+	}
+
+	.bold-text {
+		font-weight: bold;
+	}
+
+	.center-element {
+		align-items: center;
+		text-align: center;
+		align-content: center;
+	}
+
+	.left-element {
+		align-items: left;
+		text-align: left;
+	}
+
+	.yellow-text {
+		color: yellow;
+	}
+
+	.mobile {
+		margin-top: 3%;
+		width: 65%;
+	}
+
+	.rectangle {
+		padding: 0;
+		margin-top: 4%;
+		position: relative;
+	}
+
+	.rectangle-profile {
+		text-align: left;
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.rectangle-profile .row {
+		padding-left: 6%;
+	}
+
+	.profile-img {
+		border: 3px solid white;
+		width: 100%;
+	}
+
+	.rectangle h1 {
+		background: linear-gradient(45deg, #F9513F, yellow);
+		font-weight: bold;
+		font-size: 1.5vw;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.rectangle p {
+		text-align: left;
+	}
+
+	.rectangle span {
+		position: absolute;
+		font-weight: bold;
+		font-size: 2.5vw;
+		color: yellow;
+		filter: drop-shadow(6px 5px 2px #333);
+		top: 1%;
+		left: 42%;
+		right: 58%;
+	}
+
+	.equal {
+	  display: flex;
+	  display: -webkit-flex;
+	  flex-wrap: wrap;
+	}
+
+	.right-standing-line {
+		border-right: 1px solid white;
+	}
+
+
+	.download-container {
+		position: relative;
+	}
+
+	.mobile-container {
+		margin-left: 300px;
+	}
+
+	.download-container .mobile_text {
+		position: absolute;
+		top: 18%;
+		left: 15%;
+		color: white;
+	}
+
+	.download-container input {
+		outline: none;
+		border: 0;
+	}
+
+	.download-container .mobile_code {
+		position: absolute;
+		padding-left: 2%;
+		font-size: 23px;
+		color: black;
+		border-right: 1px solid #739CBE;
+		top: 39%;
+		left: 15%;
+		height: 13%;
+		width: 7%;
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
+	}
+
+
+	.download-container .mobile_number {
+		position: absolute;
+		font-size: 23px;
+		color: black;
+		top: 39%;
+		left: 22%;
+		height: 13%;
+		width: 26%;
+		border-top-right-radius: 30px;
+		border-bottom-right-radius: 30px;
+	}
+
+	.download-container .mobile_number::placeholder {
+		font-size: 23px;
+	}
+
+	.download-container .mobile_number::-webkit-inner-spin-button, 
+	.download-container .mobile_number::-webkit-outer-spin-button { 
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+	    appearance: none;
+	    margin: 0; 
+	}
+
+
+	.download-container .mobile_send {
+		position: absolute;
+		background-color: #ff8533;
+		border-radius: 30px;
+		font-size: 30px;
+		color: white;
+		font-weight: bold;
+		top: 64%;
+		left: 15%;
+		height: 13%;
+		width: 11%;
+	}
+
+	.download-container .download_button_text {
+		position: absolute;
+		top: 55%;
+		left: 5%;
+		font-weight: bold;
+		color: white;
+	}
+
+	.download-container .download_button {
+		position: absolute;
+		top: 73%;
+		left: 20%;
+		width: 20%;
+	}
+
+	.download-container .qr-code-container img {
+		position: absolute;
+		top: 14%;
+		right: 15%;
+		width: 20%;
+	}
+
+	.download-container .qr-code-text {
+		position: absolute;
+		top: 75%;
+		right: 12%;
+		font-weight: bold;
+		color: white;
+	}
+
+	.download-banner-image {
+		border-radius: 30px;
+		width: 85%;
+	}
+
+	.download-banner .big_download_button {
+		position: absolute;
+		right: 15%;
+		bottom: 17%;
+		width: 25%;
+	}
+	.download-banner .download_button_android {
+		position: absolute;
+		right: 23%;
+		top: 38%;
+		width: 10%;
+	}
+
+	.three-options {
+		background-color: #5C366D;
+		padding-top: 3%;
+		padding-bottom: 3%;
+	}
+
+	.setting-steps {
+		margin-top: 4%;
+		background-color: #5C366D;
+		border-radius: 15px;
+		padding: 3%;
+	}
+
+	.try-box {
+		width: 70%;
+		border: 3px solid yellow;
+		border-radius: 15px;
+		box-shadow: 5px 5px 10px black, inset 5px 5px 10px black;
+	}
+
+	.try-top-head-text {
+		background-color: #5C366D;
+		padding-left: 3%;
+		padding-right: 3%;
+		width: 100px;
+		line-height: 0;
+		font-size: 25px;
+	}
+
+	.try-content {
+		padding-left: 3%;
+		padding-right: 3%;
+		padding-top: 2%;
+		padding-bottom: 4%;
+	}
+
+	.payment-container {
+		margin-right: 14em;
+	}
+
+	.payment-banner {
+		height: 8vw;
+		/*height: 120px;*/
+	}
+
+	.payment-method {
+		margin-top: -9em;
+		padding-right: 33px;
+		padding-left: 33px;
+		width: 18%;
+	}
+
+	.online-players img {
+		position: absolute;
+		right: 14%;
+		top: 42%;
+		width: 5%;
+	}
+
+	.online-players span {
+		position: absolute;
+		color: #3B2E62;
+		right: 1%;
+		top: 34%;
+		transform: scale(.8, 1);
+		font-size: 50px;
+	}
+	.online-players p {
+		position: absolute;
+		color: #3B2E62;
+		right: 2%;
+		top: 58%;
+		font-size: 20px;
+	}
+
+
+
+	@media screen and (max-width: 600px) {
+
+		.mobile-view-top-neg-3 {
+			margin-top: -3%;
+		}
+	
+		.logo {
+			top: 4%;
+		}
+
+		.profile-img {
+			width: 40px;
+			margin-top: 60%;
+		}
+
+		.state {
+			font-size: 1.5vw;
+		}
+
+		.rectangle h1 {
+			font-size: 1.8vw;
+		}
+
+		.rectangle span {
+			font-size: 3vw;
+		}
+
+		.para {
+			font-size: 1.6vw;
+		}
+
+		.payment-method {
+			width: 40%;
+		}
+	}

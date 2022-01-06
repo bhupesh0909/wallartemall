@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('rummygame', function () {
+Route::get('login', function () {
     return view('auth.login');
 });
 
